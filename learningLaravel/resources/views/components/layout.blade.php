@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
+    <title>Laravel Demo</title>
 </head>
 <body>
     <nav>
@@ -11,8 +11,7 @@
         <a href="/about">About</a>
         <a href="/contact">Contact</a>
     </nav>
-
-    <?php echo $slot ?>
-
+    <!-- the double {{$slot}} translates to < ? php echo $slot ? > -->
+    {{ $slot }}
 </body>
 </html>
